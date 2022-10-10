@@ -1,7 +1,5 @@
 body,
 html {
-    height: 100%;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #f2e9e2;
     background-color: #48847a;
@@ -9,7 +7,7 @@ html {
 
 .content h1,
 .content h2 {
-    color: #F2E9E2;
+    color: #f2e9e2;
 }
 
 .hero-image {
@@ -25,7 +23,6 @@ html {
 
 .hero-text {
     text-align: center;
-    color: white;
 }
 
 .topnav {
@@ -49,25 +46,10 @@ html {
 
 .topnav a.active {
     background-color: #04aa6d;
-    color: white;
 }
 
-.intro {
-    background: #03030321;
-    border-radius: 12px;
-    background-size: contain;
-}
-
-.blockAvsnitt {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    width: 75%;
-    margin: 30px auto;
-    padding: 20px;
-}
-
-.ramAvsnitt {
+.avsnitt {
+    background: #83107121;
     border: 0rem outset rgb(255, 255, 255);
     outline: 0.3rem solid #F2E9E2;
     border-style: solid;
@@ -77,82 +59,9 @@ html {
     margin: 20px;
 }
 
-.introContent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: large;
-}
-
-.avsnitt {
-    background: #83107121;
-    border-radius: 12px;
-}
-
-.AvsnittContent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: large;
-}
-
-.AvsnittHeader {
-    font-size: x-large;
-    text-align: center;
-    font-weight: bold;
-}
-
-.AvsnittInnehåll {
-    font-size: medium;
-    text-align: left;
-    padding-left: 1%;
-}
-
-.AvsnittNummer {
-    font-size: medium;
-    text-align: left;
-    font-weight: bold;
-    font-size: larger;
-    padding-left: 1%;
-}
-
-.blockOmoss {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    width: 75%;
-    margin: 30px auto;
-    padding: 20px;
-}
-
-.Omoss {
+.omoss {
     background: #D94D4D;
     border-radius: 12px;
     padding: 15px;
     margin: 20px;
 }
-
-.OmossContent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.OmossHeader {
-    text-align: center;
-    font-weight: bold;
-    padding-top: 10px;
-}
-
-.Omosstext {
-    text-align: left;
-    padding-left: 1%;
-}
-
-/* .ramOmoss {
-                border: 0rem outset rgb(255, 255, 255);
-                outline: 0.3rem solid #F2E9E2;
-                border-style: solid;
-                box-sizing: border-box;
-                border-radius: 10px;
-            } */
