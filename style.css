@@ -15,6 +15,7 @@ html {
             rgba(51, 51, 51, 0.99)),
         url("img/header_bg_2.jpg");
     min-height: 250px;
+    width: 100%;
     padding: 50px 20px;
     background-position: center;
     background-repeat: no-repeat;
