@@ -26,7 +26,7 @@ function loadRSS(url){
             
         
             html += `
-            <div class="avsnitt content" style='padding:20px;float:left; height:600px; over-flow:scroll; overflow-x:hidden'>
+            <div class="avsnitt content postcontent" style=''>
             
         <h2>Poddavsnitt: S`+rdyseason+`E`+rdyepisode+`</h2> 
            <div style='width:100%; padding:15px; float:left; background-color:#121212; border-radius:25px;'>
