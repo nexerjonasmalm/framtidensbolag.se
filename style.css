@@ -10,6 +10,13 @@ html {
     color: #f2e9e2;
 }
 
+
+a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(51, 51, 51, 0.99)),
