@@ -29,11 +29,14 @@ function loadRSS(url){
             <div class="avsnitt content" style='padding:20px;float:left; height:600px; over-flow:scroll; overflow-x:hidden'>
             
         <h2>Poddavsnitt: S`+rdyseason+`E`+rdyepisode+`</h2> 
-           <div style='width:100%; height:240px; background-color:#121212; border-radius:25px;'>
-            <div style='float:left; width:35%; border-radius:25px; padding:20px;'>
+           <div style='width:100%; padding:15px; float:left; background-color:#121212; border-radius:25px;'>
+            <div class=poddimage>
             <img style='border-radius:25px;height:200px !important;width:200px !important' src='`+rdyimage+`' >
            </div>
-           <div style='float:left; width:65%; padding-top:5%;'>
+           <div class='poddnewsright'>
+           <div class=poddimagemobil style='text-align:center;'>
+           <img style='border-radius:25px;height:200px !important;width:200px !important' src='`+rdyimage+`' >
+          </div>
            <h3 style='color:white;'>`+title+`</h3>
            <br>    
            <audio controls>

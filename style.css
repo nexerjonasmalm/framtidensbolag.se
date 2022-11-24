@@ -17,6 +17,24 @@ a {
     text-decoration: none;
 }
 
+.poddimage{
+    float:left; 
+    width:35%; 
+    border-radius:25px; 
+    padding:20px;
+}
+
+.poddnewsright{
+    float:left; 
+    width:65%; 
+    padding-top:5%;
+}
+
+.poddimagemobil{
+    display:none;
+}
+
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(51, 51, 51, 0.99)),
@@ -71,3 +89,19 @@ a {
     padding: 15px;
     margin: 20px;
 }
+
+
+@media screen and (max-width: 650px) {
+    .poddimage {
+        display: none;    
+    }
+    .poddimagemobil{
+        display:block;
+    }
+    .poddnewsright{
+        float:left; 
+        width:100%; 
+        padding-top:5%;
+        text-align: center;
+    }
+  }
