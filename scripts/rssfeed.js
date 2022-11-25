@@ -34,14 +34,14 @@ function loadRSS(url){
            X
            </div>
            <h2 style='text-align:center'>Poddavsnitt: S`+rdyseason+`E`+rdyepisode+`</h2> 
-            <div class=poddimage>
+            <div class=poddimage style='text-align:center;'>
             <img style='border-radius:12px;height:200px !important;width:200px !important' src='`+rdyimage+`' >
            </div>
            <div class='poddnewsright'>
            <div class=poddimagemobil style='text-align:center;'>
            <img style='border-radius:12px;height:200px !important;width:200px !important' src='`+rdyimage+`' >
           </div>
-           <h3 style='color:white;'>`+title+`</h3>
+           <h3 style='color:white; padding-right:25px; padding-left:25px;'>`+title+`</h3>
            <br>    
            <audio controls>
            <source src="`+rdylink+`" type="audio/mpeg">
