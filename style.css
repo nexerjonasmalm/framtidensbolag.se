@@ -4,11 +4,38 @@ html {
     color: #f2e9e2;
     background-color: #48847a;
 }
-
+.showepisodeinfomobile{
+    display:none;
+}
 .content h1,
 .content h2 {
     color: #f2e9e2;
 }
+
+
+a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.poddimage{
+    float:left; 
+    width:35%; 
+    border-radius:25px; 
+    padding:20px;
+}
+
+.poddnewsright{
+    float:left; 
+    width:65%; 
+    
+}
+
+.poddimagemobil{
+    display:none;
+}
+
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
@@ -24,6 +51,9 @@ html {
 
 .hero-text {
     text-align: center;
+}
+.closebutton{
+    display:none
 }
 
 .topnav {
@@ -53,9 +83,13 @@ html {
     background: #536b79;
     border: 3px solid #f2e9e2; 
     border-radius: 12px;
-    padding: 15px;
+    
     margin: 20px;
 }
+strong {
+    color: white;
+    font-weight: 700;
+} 
 
 .omoss {
     background: #D94D4D;
@@ -63,4 +97,103 @@ html {
     border-radius: 12px;
     padding: 15px;
     margin: 20px;
+}
+.postcontent {
+    
+    float:left; 
+    
+}
+
+
+.columns {
+         margin-left: 0rem; 
+         margin-right: 0rem; 
+        /* margin-top: -0.75rem; */
+    }
+
+
+@media screen and (max-width: 650px) {
+    .poddimage {
+        display: none;    
+    }
+    .poddimagemobil{
+        display:block;
+    }
+    .omoss{
+        margin-bottom:25px !important;
+    }
+    .poddnewsright{
+        float:left; 
+        width:100%; 
+        padding-top:5%;
+        text-align: center;
+    }
+    .postcontent {
+        padding:0px;float:left; 
+        border:0px !important;
+        border-radius:0px !important; 
+        margin:0px;
+        height: auto;
+        background-color:#121212 !important;
+        border-bottom-style: solid !important;
+        border-bottom-color: white !important;
+        border-bottom-width: 2px !important;
+        width: 100vw;
+        padding-bottom: 25px;
+        padding-top:0px;
+}
+strong {
+    color: white;
+    font-weight: 700;
+} 
+
+.content h2 {
+    font-size: 1.75em;
+    margin-bottom: 0em;
+}
+h2 {
+        text-align: center;
+        padding-top:15px;
+
+    }
+    .column {
+         padding: 0rem;
+    }
+    .content:not(:last-child){
+        margin-bottom: 0rem;
+    }
+
+.description{
+    display:none;
+}
+
+.showepisodeinfomobile{
+    float:left;
+    margin-top:30px;
+    display:block;
+    margin-left:18%;
+    width:250px;
+    background-color:lightgrey;
+    border-radius: 15px;
+    text-align: center;
+    color: black ;
+    padding:10px;
+
+}
+.showepisodeinfomobile:hover{
+   background-color: gray;
+   cursor:pointer
+
+}
+
+.shownews{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+    height: 100vh;
+    overflow: scroll;
+
+}
+
 }
