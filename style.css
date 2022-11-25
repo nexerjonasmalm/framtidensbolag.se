@@ -83,7 +83,7 @@ a {
     background: #536b79;
     border: 3px solid #f2e9e2; 
     border-radius: 12px;
-    padding: 15px;
+    
     margin: 20px;
 }
 strong {
@@ -99,9 +99,9 @@ strong {
     margin: 20px;
 }
 .postcontent {
-    padding:20px;
+    
     float:left; 
- ;     
+    
 }
 
 

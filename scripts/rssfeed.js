@@ -26,19 +26,20 @@ function loadRSS(url){
             
             i+=1;
             html += `
-            <div class="avsnitt content postcontent" id="avsnitt`+i+`" style=''>
+            <div class="avsnitt content postcontent" id="avsnitt`+i+`" style='background-color:#121212; '>
             
-        <h2>Poddavsnitt: S`+rdyseason+`E`+rdyepisode+`</h2> 
-           <div style='width:100%; padding:15px; float:left; background-color:#121212; border-radius:25px;'>
+       
+           <div style='width:100%; float:left; background-color:#121212; border-radius:12px;'>
            <div class=closebutton style='position:fixed; top:10px; right:15px; border-radius:25px; width:25px;height:25px; font-weight:bold; padding-top:1px; padding-left:7px; background-color:red' id=closebutton`+i+` onclick=closeepisodeinfo(`+i+`)>
            X
            </div>
+           <h2 style='text-align:center'>Poddavsnitt: S`+rdyseason+`E`+rdyepisode+`</h2> 
             <div class=poddimage>
-            <img style='border-radius:25px;height:200px !important;width:200px !important' src='`+rdyimage+`' >
+            <img style='border-radius:12px;height:200px !important;width:200px !important' src='`+rdyimage+`' >
            </div>
            <div class='poddnewsright'>
            <div class=poddimagemobil style='text-align:center;'>
-           <img style='border-radius:25px;height:200px !important;width:200px !important' src='`+rdyimage+`' >
+           <img style='border-radius:12px;height:200px !important;width:200px !important' src='`+rdyimage+`' >
           </div>
            <h3 style='color:white;'>`+title+`</h3>
            <br>    
